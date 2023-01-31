@@ -1,0 +1,27 @@
+.carousal{
+    background-color: #0b0101;
+}
+
+.past{
+    padding: 1rem 7rem;
+    padding-bottom: 3rem;
+}
+
+.past p{
+    color: #D6D6D6;
+    font-weight: 400;
+    font-size: 24px;
+}
+.past h1{
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    padding: 0 30%;
+    color: #F3F3F3;
+    font-weight: 600;
+    font-size: 48px;
+}
+
+.clrr{
+    color: green;
+}
