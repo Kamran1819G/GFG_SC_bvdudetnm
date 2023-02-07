@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+  background-color: #141313;
+}
+
+.line{
+  margin: 5px 0;
+  height: 5px;
+  background: repeating-linear-gradient(
+    to right,
+    transparent,
+    transparent 10px,
+    #F3F3F3 10px,
+    #F3F3F3 20px
+  );
+}
+
+.dots{
+  display: flex;
+  width: 55%;
+  justify-content: space-between;
+  padding-left: 22.5%;
+}
+
+.dot {
+  margin-top: -0.5rem;
+  height: 20px;
+  width: 20px;
+  background-color: green;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+
+
+
+
+
