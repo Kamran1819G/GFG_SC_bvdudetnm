@@ -79,42 +79,42 @@ function Team() {
                     className="nav-link active"
                     id="chapterlead-tab"
                     targetID="#chapterlead-tab-pane"
-                    title="Chapter Lead & Vice-Chairperson"
+                    title="Co-ordinators"
                     selected="false"
                   />
                   <Tab
                     className="nav-link"
                     id="technical-tab"
                     targetID="#technical-tab-pane"
-                    title="Technical"
+                    title="Technical Team"
                     selected="false"
                   />
                   <Tab
                     className="nav-link"
                     id="design-tab"
                     targetID="#design-tab-pane"
-                    title="Design"
+                    title="Design Team"
                     selected="false"
                   />
                   <Tab
                     className="nav-link"
                     id="event-tab"
                     targetID="#event-tab-pane"
-                    title="Event"
+                    title="Organizing Team"
                     selected="false"
                   />
                   <Tab
                     className="nav-link"
                     id="marketing-tab"
                     targetID="#marketing-tab-pane"
-                    title="Marketing"
+                    title="Marketing Team"
                     selected="false"
                   />
                   <Tab
                     className="nav-link"
                     id="publicrelations-tab"
                     targetID="#publicrelations-tab-pane"
-                    title="PR & Outreach"
+                    title="PR & Outreach Team"
                     selected="false"
                   />
                 </ul>
@@ -125,21 +125,22 @@ function Team() {
                     className="tab-pane fade active show"
                     content={
                       <>
+                      <ProfileCard
+                          img={Trupti}
+                          name="Triputi Patil"
+                          role="Faculty Co-ordinator"
+                        />
                         <ProfileCard
                           img={Aryan}
                           name="Aryan Mahabhoi"
-                          role="Chapter Lead"
+                          role="Chairperson (Lead)"
                           url="https://www.linkedin.com/in/aryan-mahabhoi/"
                         />
                         <ProfileCard
                           img={Gaurang}
                           name="Gaurang Manchekar"
                           role="Vice-Chairperson"
-                        />
-                        <ProfileCard
-                          img={Trupti}
-                          name="Triputi Patil"
-                          role="Faculty Co-ordinator"
+                          url="https://in.linkedin.com/in/gaurang-manchekar-8926a6201"
                         />
                       </>
                     }
@@ -153,7 +154,8 @@ function Team() {
                         <ProfileCard
                           img={Raj}
                           name="Raj Mishra"
-                          role="Technical Head"
+                          role="Technical Lead"
+                          url="https://www.linkedin.com/in/raj-mishra-1a4b3b1b1/"
                         />
                         <ProfileCard
                           img={Kamran}
@@ -165,36 +167,43 @@ function Team() {
                           img={Khushi}
                           name="Khushi Raj"
                           role="Web Developer"
+                          url="https://www.linkedin.com/in/khushi-raj-1b1b1b1b1/"
                         />
                         <ProfileCard
                           img={Nimesh}
                           name="Nimesh Chaudhari"
                           role="Web Developer"
+                          url="https://www.linkedin.com/in/nimesh-chaudhari-1b1b1b1b1/"
                         />
                         <ProfileCard
                           img={Pavithra}
                           name="Pavithra K.S"
                           role="DSA Mentor"
+                          url="https://www.linkedin.com/in/pavithra-k-s-1b1b1b1b1/"
                         />
                         <ProfileCard
                           img={Pratik}
                           name="Pratik Bade"
                           role="DSA Mentor"
+                          url="https://www.linkedin.com/in/pratik-bade-1b1b1b1b1/"
                         />
                         <ProfileCard
                           img={Varshita}
                           name="Varshita Nalluri"
                           role="Other Technical "
+                          url="https://www.linkedin.com/in/varshita-nalluri-1b1b1b1b1/"
                         />
                         <ProfileCard
                           img={Yash}
                           name="Yash Chavan"
                           role="Other Technical "
+                          url="https://www.linkedin.com/in/yash-chavan-1b1b1b1b1/"
                         />
                         <ProfileCard
                           img={Aditya_Negi}
                           name="Aditya Negi"
                           role="Other Technical "
+                          url="https://www.linkedin.com/in/aditya-negi-1b1b1b1b1/"
                         />
 
                       </>
@@ -216,11 +225,13 @@ function Team() {
                           img={Parikha}
                           name="Parikha Kathane"
                           role="Graphic Designer"
+                          url="https://www.linkedin.com/in/parikha-kathane-1b1b1b1b1/"
                         />
                         <ProfileCard
                           img={Aditya}
                           name="Aditya Guha"
                           role="Video Editor"
+                          url="https://www.linkedin.com/in/aditya-guha-1b1b1b1b1/"
                         />
                       </>
                     }
@@ -235,16 +246,19 @@ function Team() {
                           img={Manisha}
                           name="Manisha Singh"
                           role="Event Head"
+                          url="https://www.linkedin.com/in/manisha-singh-1b1b1b1b1/"
                         />
                         <ProfileCard
                           img={Haseeb}
                           name="Haseeb Biya"
                           role="Event Manager"
+                          url="https://www.linkedin.com/in/haseeb-biya-1b1b1b1b1/"
                         />
                         <ProfileCard
                           img={Gauri}
                           name="Gauri Ghadge"
                           role="Content Writer"
+                          url="https://www.linkedin.com/in/gauri-ghadge-1b1b1b1b1/"
                         />
                       </>
                     }
@@ -259,11 +273,13 @@ function Team() {
                           img={Aditi}
                           name="Aditi Thaku"
                           role="Marketing Head"
+                          url="https://www.linkedin.com/in/aditi-thaku-1b1b1b1b1/"
                         />
                         <ProfileCard
                           img={Krishna}
                           name="Krishna Patel"
                           role="Marketing & PR Manager"
+                          url="https://www.linkedin.com/in/krishna-patel-1b1b1b1b1/"
                         />
                       </>
                     }
@@ -278,11 +294,13 @@ function Team() {
                           img={Amaan}
                           name="Amaan Shaikh"
                           role="PR & Outreach Head"
+                          url="https://www.linkedin.com/in/amaan-shaikh-1b1b1b1b1/"
                         />
                         <ProfileCard
                           img={Kritika}
                           name="Kritika Tidke"
                           role="Social Media Head"
+                          url="https://www.linkedin.com/in/kritika-tidke-1b1b1b1b1/"
                         />
                       </>
                     }
@@ -303,9 +321,9 @@ function Team() {
                   <div className="text-center">
                     <div className="section-title">
                       <h1>
-                        Meet Our{" "}
+                        Next Team{" "}
                         <span style={{ color: "var(--secondary-color)" }}>
-                          TEAM of designers, developers and creators
+                          Comming soon...
                         </span>
                       </h1>
                     </div>

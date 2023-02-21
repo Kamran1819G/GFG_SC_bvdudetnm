@@ -22,8 +22,8 @@
 
 .overlay {
   position: absolute;
-  bottom: 5px;
-  right: 20px;
+  bottom: 2px;
+  right: 3px;
   opacity: 0;
   transition: transfrom 0.2s;
 }
@@ -74,6 +74,17 @@
   bottom: -15px;
 }
 
+.past-event-section {
+  margin: 50px 0px;
+}
+.slider-right.slider-right > div,
+.slider-left > div {
+  border: 10px !important;
+  background-color: transparent;
+  font-size: 40px;
+}
+
+
 @media (max-width: 768px) {
   .poster {
     max-width: 100px;
@@ -91,4 +102,8 @@
   .text {
     font-size: 1rem;
   }
+  .past-event-section {
+    margin: 20px 0px !important;
+  }
+
 }

@@ -1,5 +1,6 @@
 import React from "react";
 import Community from "../assets/Images/community.png";
+import GFGLogo from "../assets/Images/GFGBVDUDETNM.png";
 
 function copyLink() {
   var link = window.location.href;
@@ -87,13 +88,6 @@ function JoinCommunity() {
                 </a>
               </li>
             </ul>
-            <div className="col-md-12 text-center">
-              <img
-                src={Community}
-                alt="Community"
-                style={{ width: "100%", height: "100%", filter: "contrast(200%)" }}
-              />
-            </div>
           </div>
           <div className="container" style={{ marginTop: "100px" }}>
             <div className="row">
@@ -119,7 +113,7 @@ function JoinCommunity() {
                   </div>
                   <div style={{ flex: "50%" }}>
                     <img
-                      src="https://i.ibb.co/0hY4Z4j/1.png"
+                      src={GFGLogo}
                       alt="1"
                       border="0"
                       style={{ width: "100%" }}
@@ -129,6 +123,13 @@ function JoinCommunity() {
               </div>
             </div>
           </div>
+          <div className="col-md-12 text-center">
+              <img
+                src={Community}
+                alt="Community"
+                style={{ width: "55rem", height: "30rem" }}
+              />
+            </div>
         </div>
       </section>
     </>

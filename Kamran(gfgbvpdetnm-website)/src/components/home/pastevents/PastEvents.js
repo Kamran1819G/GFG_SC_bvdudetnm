@@ -2,17 +2,23 @@ import React from "react";
 import "./PastEvents.css";
 import { Carousel } from "3d-react-carousal";
 import autorun from "../../../assets/Events/autorun.png";
+import dsa from "../../../assets/Events/dsa.jpeg";
+import flutter from "../../../assets/Events/flutter_event.png";
+import ingauration from "../../../assets/Events/Inaugration.png";
+import Newton from "../../../assets/Events/NS_CC.png";
+import hacktober from "../../../assets/Events/HacktoberFest 2022.png";
+import AutoFinal from "../../../assets/Events/Auto run final round.png";
 // npm install 3d-react-carousal --force
 
 const PastEvents = () => {
   let slides = [
-    <img src={autorun} style={{ width: "350px" }} alt="1" />,
-    <img src={autorun} style={{ width: "350px" }} alt="2" />,
+    <img src={ingauration} style={{ width: "350px" }} alt="7" />,
+    <img src={dsa} style={{ width: "350px" }} alt="6" />,
+    <img src={hacktober} style={{ width: "350px" }} alt="5" />,
+    <img src={Newton} style={{ width: "350px" }} alt="4" />,
     <img src={autorun} style={{ width: "350px" }} alt="3" />,
-    <img src={autorun} style={{ width: "350px" }} alt="4" />,
-    <img src={autorun} style={{ width: "350px" }} alt="5" />,
-    <img src={autorun} style={{ width: "350px" }} alt="6" />,
-    <img src={autorun} style={{ width: "350px" }} alt="7" />,
+    <img src={AutoFinal} style={{ width: "350px" }} alt="2" />,
+    <img src={flutter} style={{ width: "350px" }} alt="1" />,
   ];
 
   const callback = function (index) {

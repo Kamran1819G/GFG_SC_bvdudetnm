@@ -1,6 +1,6 @@
 import React from "react";
 import "./UpcomingEvent.css";
-import autorun from "../../../assets/Events/autorun.png";
+import coming from "../../../assets/Events/coming.png";
 import TimeStamp from "./TimeStamp";
 
 const UpcomingEvent = () => {
@@ -27,19 +27,19 @@ const UpcomingEvent = () => {
         <div className="container">
           <div className="d-flex justify-content-around mx-auto">
             <TimeStamp
-              img={autorun}
-              title="12 jan 2021"
-              url="https://www.google.com"
-            />
-            <TimeStamp
-              img={autorun}
-              title="15 Nov 2022"
-              url="https://www.google.com"
-            />
-            <TimeStamp
-              img={autorun}
+              img={coming}
               title="Yet to be decided"
-              url="https://www.google.com"
+              url="https://linktr.ee/gfgbvdudetnm"
+            />
+            <TimeStamp
+              img={coming}
+              title="Yet to be decided"
+              url="https://linktr.ee/gfgbvdudetnm"
+            />
+            <TimeStamp
+              img={coming}
+              title="Yet to be decided"
+              url="https://linktr.ee/gfgbvdudetnm"
             />
           </div>
         </div>

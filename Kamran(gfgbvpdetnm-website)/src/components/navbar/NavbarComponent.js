@@ -38,11 +38,11 @@ function NavbarComponent() {
       >
         <Container>
           <Navbar.Brand
-            href="/home"
+            href="/home" className="custom-brand"
             style={{ fontFamily: "Syne", color: "var(--secondary-color)" }}
           >
-            <img src={GFGBVDUDET} width="50" height="50" alt="logo" />
-            GFG BVDUDET NM
+            <img src={GFGBVDUDET} width="70" height="70" alt="logo" />
+            GFG BVDU DET Student Chapter
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
